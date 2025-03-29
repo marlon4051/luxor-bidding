@@ -79,9 +79,9 @@ npm run dev
 ## Application Monitoring
 
 To ensure the application runs smoothly, consider using:
-- **Structured logging** with tools like Winston or Pino.
-- **Error monitoring** with tools like Sentry or Bugsnag.
-- **Metrics monitoring** with Prometheus and Grafana.
+- **Structured logging** with tools like Winston and New Relic.
+- **Error monitoring** with tools like Bugsnag.
+- **Metrics monitoring** with Prometheus.
 - **Database monitoring** with PgAdmin.
 - **Security scanning** using Snyk.
 
@@ -89,7 +89,7 @@ To ensure the application runs smoothly, consider using:
 
 To improve the scalability and performance of the application:
 - **Caching** with Redis to reduce database load.
-- **Load balancing** using Nginx or a cloud service like AWS ALB.
+- **Load balancing** using a cloud service like AWS ALB.
 - **Optimized queries** in Prisma and PostgreSQL.
 - **Containerized deployment** using Kubernetes or Docker in production.
 
@@ -106,8 +106,4 @@ With more time and resources, potential improvements could include:
 - **Further optimizing queries and index management in PostgreSQL.**
 - **Separating the backend into a standalone Node.js service for better scalability and maintainability.**
 - **Implement user registration.**
-
----
-
-Your project is now ready to run locally. 🚀
 
